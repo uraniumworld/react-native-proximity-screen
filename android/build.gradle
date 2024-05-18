@@ -18,7 +18,7 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-    compileSdkVersion safeExtGet('ProximityScreen_compileSdkVersion', 29)
+    compileSdkVersion safeExtGet('ProximityScreen_compileSdkVersion', 34)
     buildToolsVersion safeExtGet('ProximityScreen_buildToolsVersion', '29.0.2')
     defaultConfig {
         minSdkVersion safeExtGet('ProximityScreen_minSdkVersion', 16)
